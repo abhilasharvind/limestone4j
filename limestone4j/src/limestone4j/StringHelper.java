@@ -8,7 +8,7 @@ public class StringHelper {
 	
 	 /**
 	 * @param phoneNumber
-	 * @return eg: input is 0747177352 then output will be (074) 717 7352
+	 * @return eg: If input is 0747177352 then output will be (074) 717 7352
 	 * @throws ParseException
 	 */
 	public static String formatePhoneNumber(String phoneNumber) throws ParseException {
@@ -19,7 +19,7 @@ public class StringHelper {
 	    }
 	/**
 	 * @param day
-	 * @return eg: input is 2 then output will be 2nd
+	 * @return eg: If input is 2 then output will be 2nd
 	 * @throws ParseException
 	 */
 	public static String getDateSuffix(int day) {
